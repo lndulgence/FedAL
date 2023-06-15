@@ -1,5 +1,5 @@
 # FedAL
-FedAL is my master's thesis, which consists of a RESTful API-based federated learning framework that can be used either via weight federation (FedAVG for independent models is computed on a master machine) or batch accumulated gradient federation (gradients are calculated in worker nodes, then retrieved and accumulated, then propagated in the master node)
+FedAL is my master's thesis, which consists of a RESTful API-based federated learning framework that can be used either via weight federation (FedAVG for independent models is computed on a master machine) or batch accumulated gradient federation (gradients are calculated in worker nodes, then retrieved and accumulated, then propagated in the master node). Experimentation to validate the framework consisted of identification of Acute Lymphoblastic Leukemia in blood microscopy, which achieved very good results (95% accuracy with 98% recall) over the validation set.
 
 ## Usage
 In each worker, the APIenv, workerenv (V1 for weight federation, V2 for batch gradient federation), and nginxenv must be placed within the same folder, along with a data folder containing the dataset to use. Data loading may need to be adapted. The worker.py file must be altered to contain the IP of the node its run on in its IP variable.
