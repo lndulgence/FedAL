@@ -1,0 +1,12 @@
+global_weights table:   
+
+    >model [PK]
+    >roundnumber
+    >weights 
+
+local_weights table:   
+
+    >model, ip [PK]
+    >roundnumber
+    >weights
+    >epochprint [UNUSED]

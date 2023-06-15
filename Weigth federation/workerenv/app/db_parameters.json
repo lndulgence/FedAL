@@ -1,0 +1,7 @@
+{
+    "user": "jmora", 
+    "password": "tfmjmora", 
+    "host": "192.168.0.243",
+    "port": "5432",
+    "database": "jmora"
+}

@@ -1,0 +1,11 @@
+fastapi==0.85.1
+python-multipart==0.0.5 #for authentication
+pika==1.3.0 #to enqueue tasks in rabbitmq
+uvicorn==0.18.3 #to run the fastapi server
+gunicorn==20.0.2 #as a process manager
+starlette==0.20.4
+SQLAlchemy==1.4.42
+psycopg2-binary==2.9.5
+#KERAS
+#TF
+#UTILS FOR MANAGING IMAGES
